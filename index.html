@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é RGB X CMYK</title>
+</head>
+<body>
+    <header><h1>RGB E CMYK</h1></header>
+
+    <section id="secaoini">
+        <h2>O olho e os Cones</h2>
+        <img src="./assets/olho.png" alt="olho humano, cones" width="350">
+        <p>A atuação do olho no RGB esta diretamente relacionado as celulas cones, que são dividas em 3 tipos.</p>
+        <P><strong>Cones R (Longo):</strong> Cone sensível ao vermelho (564-580 nm).</P>
+        <P><strong>Cones G (Médio):</strong> Cone sensível ao verde (534-545 nm).</P>
+        <P><strong>Cones B (curto):</strong> Cone sensível ao azul (420-440 nm).</P>
+        <p>Essas 3 células são as responsaveis tanto por captar as cores como também por causar problemas como o daltonismo.</p>
+    </section>
+
+    <section id="secao">
+        <h2>RGB E os Pixels</h2>
+        <p><strong>Pixel:</strong> Um pixel (Picture Element) é a menor unidade de uma imagem digital. Representando um ponto de cor em uma tela, e quando se combinam, formam uma imagem em um monitor. </p>
+        <p>O Pixel é composto com 3 subpixels, com as cores, vermelho, azul e verde, que quando combinados, podem formar todas as outras cores.
+            Cada subpixel tem uma intensidade de cor que varia de 0 até 255.
+        </p>
+        <img src="./assets/360_F_157079368_9WD9gTQzLeGN0tsJJludUKjW8WucrMur.jpg" width="350">
+        <h3>EXEMPLOS:</h3>
+        <li>
+            <ul> (255, 0, 0) → Vermelho puro </ul>
+            <ul> (0, 255, 0) → Verde puro </ul>
+            <ul> (0, 0, 255) → Azul puro </ul>
+            <ul> (255, 255, 255) → Branco </ul>
+            <ul> (0, 0, 0) → Preto </ul>
+        </li>
+        <p>Aposto que vocês já que a resolução de tal monitor é <strong>Full HD (1920x1080)</strong> isso significa que uma tela com essa resolução tem <strong>2.073.600 pixels</strong>.</p>
+        <h3><strong>Curiosidades sobre os pixels e RGB</strong></h3>
+        <li>
+            <ul> Telas de OLED e LCD possuem diferentes formas de organizar os subpixels RGB para otimizar cores e nitidez. </ul>
+            <ul> Algumas telas utilizam subpixels extras, como o RGBW (com branco adicional) para melhorar o brilho. </ul>
+            <ul> O olho humano não vê pixels individuais em telas de alta densidade, gerando uma experiência mais realista. </ul>
+        </li>
+    </section>
+
+    <section id="secao">
+        <h2>CMYK</h2>
+        <p>CMYK é um sistema substrativo, ou seja, tudo aquilo que é impresso.C representa Ciano
+        Na sigla CMYK, <strong> C representa Ciano, </strong> <strong> M representa Magenta, </strong> <strong> Y significa yellow (amarelo),  </strong> <strong> Representa a cor preta, que é a cor Key. </strong>
+        </p>
+    <p>Quando essas cores são misturas em diferentes proporções, elas formam uma ampla gama de tons.</p>
+    <img src="./assets/Mistura_de_Cores_Subtrativas.png" width="350">
+
+    <h2>Comparação entre RGB e CMYK</h2>
+    <table>
+        <tr>
+            <th>Característica</th>
+            <th>RGB (Digital)</th>
+            <th>CMYK (Impressão)</th>
+        </tr>
+        <tr>
+            <td>Tipo</td>
+            <td>Aditivo (soma luz)</td>
+            <td>Subtrativo (remove luz)</td>
+        </tr>
+        <tr>
+            <td>Cores primárias</td>
+            <td>Vermelho, Verde, Azul</td>
+            <td>Ciano, Magenta, Amarelo, Preto</td>
+        </tr>
+        <tr>
+            <td>Usado para</td>
+            <td>Telas (monitores, celulares, TV)</td>
+            <td>Impressoras (jornais, revistas, cartazes)</td>
+        </tr>
+        <tr>
+            <td>Branco</td>
+            <td>Máxima luz (255,255,255)</td>
+            <td>Ausência de tinta (cor do papel)</td>
+        </tr>
+        <tr>
+            <td>Preto</td>
+            <td>Ausência de luz (0,0,0)</td>
+            <td>Máxima tinta (K 100%)</td>
+        </tr>
+    </table>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Charlles Otavio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
